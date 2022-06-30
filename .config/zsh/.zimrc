@@ -1,0 +1,21 @@
+# ~/.config/zsh/.zimrc
+
+# modules
+zmodule archive
+zmodule asdf
+zmodule environment
+zmodule fzf
+zmodule git
+zmodule utility
+zmodule exa
+
+# prompt
+# https://github.com/PatTheMav/minimal2
+zmodule s1ck94
+zmodule git-info
+zmodule prompt-pwd
+
+# completion
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-autosuggestions
+zstyle ':completion::complete:*' cache-path ${XDG_CACHE_HOME}/zsh/zcompcache

@@ -1,1 +1,0 @@
-/home/signus/.config/zsh/.zprezto/runcoms/zlogout
