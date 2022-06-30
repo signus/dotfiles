@@ -1,0 +1,20 @@
+live_config_reload: true
+
+  #shell:
+  #program: /bin/zsh
+
+selection:
+  semantic_escape_chars: ",|`:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+window:
+  dynamic_title: true
+
+cursor:
+  style: 
+    shape: Beam
+    blinking: On
+  unfocused_hollow: true
+
+mouse_bindings:
+  - { mouse: Middle, mode: ~Vi, action: PasteSelection  }

@@ -4,6 +4,7 @@
 .config/nvim/backup/
 .config/nvim/plugged/
 .config/zsh/.zcompdump
+.config/zsh/.zprezto
 .config/zsh/.zsh_history
 
 # .local exclusions - XDG_DATA_HOME
