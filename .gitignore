@@ -1,0 +1,12 @@
+.ssh/
+
+# .config exclusions - XDG_CONFIG_HOME
+.config/nvim/backup/
+.config/nvim/plugged/
+.config/zsh/.zcompdump
+.config/zsh/.zsh_history
+
+# .local exclusions - XDG_DATA_HOME
+.local/share/gnupg/
+
+.cache/
