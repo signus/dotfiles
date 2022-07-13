@@ -39,6 +39,11 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set cursorline
+
+"Set filetype parameters
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd BufNewFile,BufRead *.yar,*.yara setlocal filetype=yara
 
 syntax on
 set nu
