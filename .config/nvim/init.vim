@@ -12,16 +12,20 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 \| endif
 
 call plug#begin('~/.config/nvim/plugged')
-    Plug 'airblade/vim-gitgutter'
-    Plug 'tpope/vim-fugitive'
+    "Editor addons
     Plug 'itchyny/lightline.vim'
-    Plug 'andrewstuart/vim-kubernetes'
+    Plug 'tpope/vim-fugitive'
+    Plug 'airblade/vim-gitgutter'
 
-    "Languages
-    Plug 'cespare/vim-toml'
-    Plug 'rust-lang/rust.vim'
-    Plug 'elixir-lang/vim-elixir'
+    "Syntax
     Plug 'ekalinin/dockerfile.vim'
+    Plug 'rust-lang/rust.vim'
+    Plug 'robbles/logstash.vim'
+    Plug 'elixir-lang/vim-elixir'
+    Plug 'andrewstuart/vim-kubernetes'
+    Plug 's3rvac/vim-syntax-yara'
+    Plug 'cespare/vim-toml'
+    Plug 'zeek/vim-zeek'
 call plug#end()
 
 filetype plugin indent on
