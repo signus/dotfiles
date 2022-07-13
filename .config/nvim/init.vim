@@ -13,6 +13,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
 
 call plug#begin('~/.config/nvim/plugged')
     "Editor addons
+    Plug 'yggdroot/indentline'
     Plug 'itchyny/lightline.vim'
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
@@ -54,6 +55,8 @@ set list
 
 set backspace=indent,eol,start
 
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+let g:indentLine_setColors = 0
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ 'active': {
